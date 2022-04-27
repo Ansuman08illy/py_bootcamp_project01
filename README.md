@@ -1,6 +1,6 @@
 # This repository is consist of all the projects I have done in my 2022 Complete Python Bootcamp.
 
-I would be mentioning all the projects and and do they do here 🥇
+I would be mentioning all the projects and their functions here 🥇
 
 '''1) guess_number_challange.py'''
 'This code creates a random number in range of 1 and 100.'
