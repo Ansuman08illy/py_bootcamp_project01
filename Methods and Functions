@@ -1,1 +1,83 @@
-# The solutions of all the probrlems form this online course-cum-bootcamp is here📕
+#This entire python file consits of define funtions of python Exercise Text 2022
+
+
+def value(a,b):
+    if a%2==0 and b%2==0:
+        return min(a,b)
+    else:
+        return max(a,b)
+
+
+def check_word(word):
+    word=word.split()
+    return sword[0][0] == word[1][0]:
+
+
+def makes_twenty(a,b):
+    return sum(a,b) >= 20:          
+
+ 
+def cap(word):
+    if len(name) > 3:
+        return name[:3].capitalize() + name[3].capitalize()
+    else:
+        return 'Name is too sort'
+
+
+def master_yoda(words):
+    return ''.join(words.split()[::-1])
+
+
+def almost_there(num):
+    return (abs(100-num) <=10) or  (abs(200-n) <= 10)  
+        
+
+def has_3(num_list):
+    return 3 == num_list[num_list.index(3)+1]
+    
+
+def paper_doll(word):
+    return ''.join([x*3 for x in word])
+
+
+def black_jack(num_list):
+    if sum(num_list) > 21:
+        if sum(num_list) - 10 > 21:
+            return 'BUST'
+        return sum(num_list) -10   
+    else:
+        return sum(num_list)
+ 
+ 
+
+def summer_69(num_list):
+    if 6 and 9 in num_list:
+        remove_list = num_list[num_list.index(6):num_list.index(9)+1:1]
+        for num in remove_list:
+            num_list.remove(num)
+    return sum(num_list)        
+
+
+def spy_game(num_list):
+    num = num_list.index(0)
+    num_list.pop(num)
+    if num < num_list.index(0)+1 < num_list.index(7)+1:
+        return True
+    else:
+        return False  
+
+
+def count_primes2(num):
+    primes = [2]
+    x = 3
+    if num < 2:
+        return 0
+    while x <= num:
+        for y in primes:  # use the primes list!
+            if x%y == 0:
+                x += 2
+                break
+        else:
+            primes.append(x)
+            x += 2
+    return len(primes)
